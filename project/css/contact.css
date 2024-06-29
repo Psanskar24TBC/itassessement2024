@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 26%;
+    border: 3px solid rgb(126, 107, 2);
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background: url(/img/assortment-pieces-cake.jpg);
+    
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding:26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(226, 158, 23);
+    font-size: 20px;
+    font-family:"Ubuntu", sans-serif; 
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: brown
+}
+
+.rightNav{
+    width: 30%;
+    padding: 0 23px;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 11px;
+}
+
+
+.firstSection{
+    height:100vh;
+
+}
+
+.sitemap{
+    background-color: rgb(245, 242, 239);
+    padding: 60px;
+    margin-top:0%;
+
+}
+
+.sitemap .ct{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    float: left;
+    margin-right: 360px;
+
+}
+
+.sitemap .info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    float: left;
+    margin-right: 360px;
+}
+
+.sitemap .ulink{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+   
+}
+
+.sitemap a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+.sitemap .socials{
+    padding-top: 40px;
+}
+.background{
+    background: url(/img/assortment-pieces-cake.jpg);
+    margin-top: 0%;
+    height: 60px;
+    padding-top: 40px;
+    text-align: center;
+}
+.background p{
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    font-family:"Ubuntu", sans-serif; 
+}
+
+.main p{
+    margin: 2.5%;
+
+}
+
+.main h3{
+    margin-right: 43.5%;
+}
+.main .first{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.main .email input{
+    margin-top: 1.5%;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+}
+.main .subject input{
+    margin-top: 1.5%;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.main textarea{
+    margin-top: 3.5%;
+    width: 50%;
+    height:250px;
+}
+.main .date{
+    margin-top: 2%;
+    margin-right: 33%;
+}
+
+    
+.date input{
+    margin-left: 37.5%;
+    height: 40px;
+    width: 77%;
+    border-radius: 10px; 
+}
+.main .have{
+    margin-top: 2%;
+    margin-right: 35%;
+}
+
+    
+.have select{
+    margin-left: 38.5%;
+    height: 40px;
+    width: 77%;
+    border-radius: 10px; 
+}
+
+.have label{
+    margin-right: 14%;
+}
+.main .cabout{
+    margin-top: 2%;
+    margin-right: 35%;
+}
+
+    
+.cabout select{
+    margin-left: 38.5%;
+    height: 40px;
+    width: 77%;
+    border-radius: 10px; 
+}
+
+.cabout label{
+    margin-right: 16%;
+}
+
+.main .bakery{
+    margin-top: 2%;
+    margin-right: 35%;
+}
+
+    
+.bakery select{
+    margin-left: 38.5%;
+    height: 40px;
+    width: 77%;
+    border-radius: 10px; 
+}
+
+.bakery label{
+    margin-right: 16%;
+}
+
+.main .second{
+    
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 4%;
+}
+
+.main .buttonn{
+   padding-top: 1%;
+   padding-left: 45%;
+}
+
+.main .buttonn input{
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+}
+.main input{
+    cursor: pointer;
+}
+
+.lower img{
+    display: flex;
+    width: 30%;
+    height: 400px;
+    margin-left: 10%;
+}
+
+.lower h1{
+    display: flex;
+    justify-content: right;
+    margin-right: 15%;
+    margin-top: -20%;
+    
+}
+
+.lower p{
+    display: block;
+    margin-top: 3%;
+    margin-left: 54%;
+}
+
+.lower button{
+    display: block;
+    margin-top: 3%;
+    margin-left: 54%; 
+    width: 30%;
+    height: 50px;
+    background-color:brown;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    
+}
+.lower a{
+    text-decoration: none;
+}
+
+.lower hr{
+    margin: 10%;
+}
+

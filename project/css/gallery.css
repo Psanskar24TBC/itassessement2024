@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 26%;
+    border: 3px solid rgb(126, 107, 2);
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background: url(/img/assortment-pieces-cake.jpg);
+    
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding:26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(226, 158, 23);
+    font-size: 20px;
+    font-family:"Ubuntu", sans-serif; 
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: brown
+}
+
+.rightNav{
+    width: 30%;
+    padding: 0 23px;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 11px;
+}
+
+.sitemap{
+    background-color: rgb(245, 242, 239);
+    padding: 60px;
+    margin-top: 1%;
+
+}
+
+.sitemap .ct{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    float: left;
+    margin-right: 360px;
+
+}
+
+.sitemap .info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    float: left;
+    margin-right: 360px;
+}
+
+.sitemap .ulink{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+   
+}
+
+.sitemap a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+.sitemap .socials{
+    padding-top: 40px;
+}
+
+.background{
+    background: url(/img/assortment-pieces-cake.jpg);
+    height:50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.firstSection{
+    height:100vh;
+
+}
+
+.img-cover {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 4 columns */
+    gap: 10px; /* Adjust spacing between photos */
+}
+
+.img-cover img {
+    height: 200px;
+    width: 100%; /* Photos take full width of their grid cell */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+.section1 .outside {
+    display: flex;
+    justify-content:center;
+    color: rgb(213, 131, 22);
+    font-size: 80px;
+    margin-top: 2%;
+}
+.section1 h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    color: rgb(232, 143, 11);
+    font-size: 30px;
+}
+
+.section1 hr{
+    margin-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+.img-cover2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.img-cover2 img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section1 h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(224, 130, 7);
+    font-size: 30px;
+}
+
+
+.img-cover3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.img-cover3 img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section1 h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 1%;
+    color: rgb(239, 146, 6);
+}

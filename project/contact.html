@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact</title>
+    <script>
+        function validateForm() {
+            const email = document.querySelector('.email input').value;
+            const subject = document.querySelector('.subject input').value;
+            const concern = document.querySelector('.concern textarea').value;
+            const have = document.querySelector('#have').value;
+
+            if (!email || !subject || !concern || have === '...') {
+                alert('Please fill out all required fields.');
+                return false; 
+            } else {
+                alert('Form submitted successfully!'); 
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list ">
+            <div class="logo"> <img src="img/normal.png" alt="logo"></div>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="ourhistory.html">Our History</a></li>
+            <li> <a href="Menu.html">Menu</a></li>
+            <li> <a href="contact.html">Contact Us</a></li>
+            <li> <a href="gallery.html">Gallery</a></li>
+        </ul>
+        <div class="rightNav ">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="main">
+        <h1>CONTACT US</h1>
+        <p>We would love to hear from you. For general enquiries and feedback, please fill in the form.</p>
+        <h3>contact us</h3>
+        <hr class="first">
+        <form onsubmit="return validateForm()">
+            <div class="email">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="subject">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="concern">
+                <textarea name="concern" id="concern" placeholder="Elaborate Your Concern"></textarea>
+            </div>
+            <div class="date">
+                <label for="date">Date of visit/order (if applicable)</label> <br>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="have">
+                <label for="have">I have a....</label> <br>
+                <select name="have" id="have">
+                    <option value="complain">Complain</option>
+                    <option value="compliment">Compliment</option>
+                    <option value="enquiry">Enquiry</option>
+                    <option value="..." selected>...</option>
+                </select>
+            </div>
+            <div class="cabout">
+                <label for="about">About</label> <br>
+                <select name="about" id="about">
+                    <option value="a">Our bakeries and Product</option>
+                    <option value="b">Orders</option>
+                    <option value="c">Grocery</option>
+                    <option value="d">Jobs & HR</option>
+                    <option value="e">Marketing & PR</option>
+                    <option value="f">New Bakery suggestion</option>
+                    <option value="g">New Supplier</option>
+                    <option value="h">Lost Property</option>
+                    <option value="i" selected>.......</option>
+                </select>
+            </div>
+            <div class="bakery">
+                <label for="bakery">Bakery</label> <br>
+                <select name="bakery" id="bakery">
+                    <option value="a">Bastille</option>
+                    <option value="b">Batignolles</option>
+                    <option value="c">Champs-Elysées</option>
+                    <option value="d">Champ de Mars</option>
+                    <option value="e">Haussmann Saint-Lazare</option>
+                    <option value="f">Ile de la Cité</option>
+                    <option value="g">Ile Saint-Louis</option>
+                    <option value="i" selected>.....</option>
+                </select>
+            </div>
+            <hr class="second">
+            <div class="buttonn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+    <div class="lower">
+        <img src="img/high-angle-bread-cotton-flowers.jpg" alt="bread">
+        <h1>SIGN UP TO OUR NEWSLETTER</h1>
+        <p>Sign up to hear about our latest events, discover new recipes and more.</p>
+       <a href="https://www.newsletter.co.uk/" target="_blank"><button>SIGN UP TO OUR NEWSLETTER</button></a> 
+        <hr>
+    </div>
+    <section class="sitemap">
+        <div class="ct">
+            <h1>Crustry and trusty</h1>
+            <a href="index.html">Home</a>
+            <a href="ourhistory.html">Our History</a>
+            <a href="Menu.html">Menu</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+        <div class="info">
+            <h1>Information</h1>
+            <a href="">FAQ</a>
+            <a href="">Terms of Use</a>
+            <a href="">Privacy Policy</a>
+            <a href="">About</a>
+            <a href="">Join Our Team</a>
+        </div>
+        <div class="ulink">
+            <h1>Useful Links</h1>
+            <a href="">Have Your Say</a>
+            <a href="">Merch</a>
+            <a href="">Shipping</a>
+            <a href="">Terms of Services</a>
+        </div>
+        <div class="socials">
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2024 www.crustyandtrusty.com - All rights reserved
+        </p>
+    </footer>
+</body>
+</html>

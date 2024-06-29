@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 26%;
+    border: 3px solid rgb(126, 107, 2);
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background: url(/img/assortment-pieces-cake.jpg);
+    
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding:26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(226, 158, 23);
+    font-size: 20px;
+    font-family:"Ubuntu", sans-serif; 
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: brown
+}
+
+.rightNav{
+    width: 30%;
+    padding: 0 23px;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 11px;
+}
+
+
+.firstSection{
+    height:300vh;
+
+}
+
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0px;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.top img{
+   width: 100%; 
+}
+
+.top h1{
+ 
+    color: yellow;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: -25%;
+    margin-right: 40%;
+    font-size: 30px;
+    
+}
+
+.p1{
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 13%;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.long h1{
+    margin-top: 5%;
+    color: rgb(206, 151, 13);
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.long {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.long .year {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.long .year h1 {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid burlywood;
+    padding: 20px;
+    margin: 150px 0;
+    text-align: center;
+}
+
+.first img{
+    display: flex;
+    width: 20%;
+    margin-top: -313%;
+    margin-left: 20%;
+}
+
+.first p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -12%;
+}
+.second img{
+    display: flex;
+    width: 20%;
+   margin-top: 12%;
+    margin-left: 20%;
+}
+
+.second p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -11.5%;
+}
+.third img{
+    display: flex;
+    width: 20%;
+   margin-top: 14%;
+    margin-left: 20%;
+}
+
+.third p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -10%;
+}
+
+.fourth img{
+    display: flex;
+    width: 20%;
+   margin-top: 16%;
+    margin-left: 20%;
+}
+
+.fourth p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -10%;
+}
+
+.fifth img{
+    display: flex;
+    width: 20%;
+   margin-top: 15%;
+    margin-left: 20%;
+}
+
+.fifth p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -9.5%;
+}
+.sixth img{
+    display: flex;
+    width: 20%;
+   margin-top: 15%;
+    margin-left: 20%;
+}
+
+.sixth p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -12.5%;
+}
+.seventh img{
+    display: flex;
+    width: 20%;
+    height: 250px;
+   margin-top: 13%;
+    margin-left: 20%;
+}
+
+.seventh p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -12%;
+}
+
+.eigth img{
+    display: flex;
+    width: 20%;
+   margin-top: 16%;
+    margin-left: 20%;
+   
+}
+
+.eigth p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -11.5%;
+}
+.ninth img{
+    display: flex;
+    width: 20%;
+   margin-top: 11%;
+    margin-left: 20%;
+}
+
+.ninth p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -12%;
+}
+
+.tenth img{
+    display: flex;
+    width: 20%;
+   margin-top: 15.5%;
+    margin-left: 20%;
+}
+
+.tenth p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -10%;
+}
+
+.eleven img{
+    display: flex;
+    width: 20%;
+   margin-top: 13%;
+    margin-left: 20%;
+}
+
+.eleven p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -12%;
+}
+
+.twelve img{
+    display: flex;
+    width: 20%;
+   margin-top: 13%;
+    margin-left: 20%;
+}
+
+.twelve p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -12%;
+}
+
+.thirten img{
+    display: flex;
+    width: 20%;
+   margin-top: 14%;
+    margin-left: 20%;
+}
+
+.thirten p{
+    display: flex;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -12%;
+}
+
+.thirten hr{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.background{
+    background: url(/img/assortment-pieces-cake.jpg);
+    margin-top: 0%;
+}
+.background p{
+    color: black;
+}
+.sitemap{
+    background-color: rgb(245, 242, 239);
+    padding: 60px;
+    margin-top: 3%;
+
+}
+
+.sitemap .ct{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    float: left;
+    margin-right: 360px;
+
+}
+
+.sitemap .info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    float: left;
+    margin-right: 360px;
+}
+
+.sitemap .ulink{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+   
+}
+
+.sitemap a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+.sitemap .socials{
+    padding-top: 40px;
+}
+
+.end img{
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+.end h1{
+    display: flex;
+    margin-left: 15%;
+    margin-top: -20%;
+}
+
+.end p{
+    margin-left: 16%;
+    margin-right: 68%;
+    margin-top: 1%;
+}
+
+.end button{
+    display: flex;
+    margin-left: 15.5%;
+    margin-top: 1%;
+    width: 6%;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+}

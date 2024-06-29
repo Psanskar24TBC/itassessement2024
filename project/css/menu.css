@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 26%;
+    border: 3px solid rgb(126, 107, 2);
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background: url(/img/assortment-pieces-cake.jpg);
+    
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding:26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(226, 158, 23);
+    font-size: 20px;
+    font-family:"Ubuntu", sans-serif; 
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: brown
+}
+
+.rightNav{
+    width: 30%;
+    padding: 0 23px;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 11px;
+}
+
+
+
+
+.sitemap{
+    background-color: rgb(245, 242, 239);
+    padding: 60px;
+    margin-top: 1%;
+
+}
+
+.sitemap .ct{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    float: left;
+    margin-right: 360px;
+
+}
+
+.sitemap .info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    float: left;
+    margin-right: 360px;
+}
+
+.sitemap .ulink{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+   
+}
+
+.sitemap a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+.sitemap .socials{
+    padding-top: 40px;
+}
+
+.background{
+    background: url(/img/assortment-pieces-cake.jpg);
+    height:50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.upper img{
+    width: 100%;
+   
+}
+.upper h1{
+    display: flex;
+    justify-content: center;
+    margin-top: -15%;
+    margin-left: 18%;
+    font-size: 50px;
+    font-family:"Ubuntu", sans-serif; 
+    color: brown;
+}
+
+.currentm h1{
+    color: brown;
+    padding-top: 180px;
+    font-size: 100px;
+    padding-left: 7%; 
+    font-family:"Ubuntu", sans-serif; 
+}
+
+.currentm h3{
+    background: url(/img/Topbanner.png);
+    display: flex;
+    align-items: center;
+    width: 78%;
+   height: 100px;
+   padding-left: 110px;
+   font-size: 50px;
+   color: rgb(166, 83, 83);
+   margin-left: 8%;
+
+}
+.bakery1 img{
+    display: flex;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 8%;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    
+}
+
+.bakery1 h4{
+    margin-left:160px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+
+.bakery2 img{
+    display: flex;
+    width: 300px;
+    margin-top: -18%;
+    margin-left: 40%;
+    border: 2px solid burlywood;
+    border-radius: 10px;   
+}
+
+.bakery2 h4{
+    margin-left: 47%;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
+.bakery3 img{
+    display: flex;
+    width: 300px;
+    margin-top: -17.5%;
+    margin-left: 70%;
+    border: 2px solid burlywood;
+    border-radius: 10px;   
+}
+
+.bakery3 h4{
+    margin-left: 75%;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
+
+.bakery4 img{
+    display: flex;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 70%;
+    border: 2px solid burlywood;
+    border-radius: 10px;   
+}
+
+.bakery4 h4{
+    margin-left: 78%;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
+
+.bakery5 img{
+    display: flex;
+    width: 300px;
+    margin-top: -19%;
+    margin-left: 8%;
+    border: 2px solid burlywood;
+    border-radius: 10px;   
+}
+
+.bakery5 h4{
+    margin-left: 15%;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
+.bakery6 img{
+    display: flex;
+    width: 300px;
+    margin-top: -17.5%;
+    margin-left: 40%;
+    border: 2px solid burlywood;
+    border-radius: 10px;   
+}
+
+.bakery6 h4{
+    margin-left: 46.5%;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
+
+.headings h1{
+    display: flex;
+    background: url(/img/Topbanner.png);
+    margin: 3%;
+    height: 80px;
+    padding-top: 50px;
+    padding-left: 30px;
+    color: rgb(165, 85, 85);    
+}
+
+.cakes .cake1 img{
+    margin-left: 3%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: 4%;
+    width: 20%;
+}
+.cakes .cake1 h4{
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: larger;
+    color: brown;
+}
+
+.cakes .cake2 img{
+    display: flex;
+    margin-left: 35%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: -18.5%;
+    width: 20%;
+}
+.cakes .cake2 h4{
+    margin-left: 37%;
+    margin-top: 2%;
+    font-size: larger;
+    color: brown;
+}
+.cakes .cake3 img{
+    display: flex;
+    margin-left: 68%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: -18.5%;
+    width: 20%;
+}
+.cakes .cake3 h4{
+    margin-left: 71%;
+    margin-top: 2%;
+    font-size: larger;
+    color: brown;
+}
+.cakes .cake4 img{
+    display: flex;
+    margin-left: 69%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: 5%;
+    width: 20%;
+}
+.cakes .cake4 h4{
+    margin-left: 71%;
+    margin-top: 2%;
+    font-size: larger;
+    color: brown;
+}
+
+.cakes .cake5 img{
+    display: flex;
+    margin-left: 35%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: 5%;
+    width: 20%;
+}
+.cakes .cake5 h4{
+    margin-left: 37%;
+    margin-top: 2%;
+    font-size: larger;
+    color: brown;
+}
+.cakes .cake6 img{
+    display: flex;
+    margin-left: 3%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: -41.5%;
+    width: 20%;
+}
+.cakes .cake6 h4{
+    margin-left: 7%;
+    margin-top: 0.5%;
+    font-size: larger;
+    color: brown;
+}
+
+.cakes .cake7 img{
+    display: flex;
+    margin-left: 35%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: -17%;
+    width: 20%;
+}
+.cakes .cake7 h4{
+    margin-left: 37%;
+    margin-top: 2%;
+    font-size: larger;
+    color: brown;
+}
+
+.cakes .cake8 img{
+    display: flex;
+    margin-left: 3%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: 5%;
+    width: 20%;
+}
+.cakes .cake8 h4{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: larger;
+    color: brown;
+}
+
+body h4, img{
+    cursor: pointer;
+    color: brown;
+}
+
+
